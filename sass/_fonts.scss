@@ -1,13 +1,23 @@
 @font-face {
-  font-family: FuturaLT;
+  font-family: "FuturaLT";
   src: url(../fonts/FuturaLT.woff2);
 }
 
 @font-face {
-   font-family: FuturaLT-Oblique;
+  font-family: "FuturaLT";
+  src: url(../fonts/FuturaLT-Bold.woff2);
+  font-weight: bold;
+}
+
+@font-face {
+   font-family: "FuturaLT-Oblique";
   src: url(../fonts/FuturaLT-Oblique.woff2);
 }
 @font-face {
   font-family: "Helvetica Neue";
   src: url(../fonts/HelveticaNeueLight.woff2);
+}
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/MYRIADPRO-REGULAR.woff');
 }

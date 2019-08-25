@@ -1,0 +1,17 @@
+.button {
+  color: #4cc1dd;
+  font-family: "Helvetica Neue LT";
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  /* Text style for "Let’s Star" */
+  letter-spacing: 1.08px;
+  border-radius: 25px;
+  border: 1px solid #00aeef;
+  padding: 14px 82px;
+  &:hover {
+    background-color: gray;
+    color: #ffffff;
+  }
+}
+

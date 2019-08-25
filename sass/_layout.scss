@@ -4,3 +4,8 @@
   margin-right: auto;
   box-sizing: border-box;
 }
+
+.big-container {
+  @extend .medium-containter;
+  max-width: 1458px;
+}
