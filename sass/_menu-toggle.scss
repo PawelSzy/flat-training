@@ -9,7 +9,7 @@
     position: relative;
     top: 16px;
     float: right;
-    margin-right: 10px;
+    margin-right: -10px;
 
     z-index: 1;
 
@@ -129,6 +129,6 @@
    */
   #menuToggle input:checked ~ ul
   {
-    transform: translate(181%, 0);
+    transform: translate(175%, 0);
   }
 }
