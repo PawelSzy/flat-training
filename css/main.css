@@ -551,6 +551,90 @@ textarea {
     text-transform: uppercase;
     /* Text style for "sEE PRICES" */
     letter-spacing: 1.44px;
-    padding: 14px 70px; }
+    padding: 14px 70px;
+    width: 150px;
+    margin-top: 20px; }
+    @media (min-width: 720px) {
+      .slogan-section__button {
+        width: initial;
+        margin-top: 0; } }
+
+.graphic-section {
+  text-align: center;
+  background-color: #064d63;
+  padding-top: 83px;
+  position: relative; }
+  @media (min-width: 1370px) {
+    .graphic-section {
+      min-height: 954px;
+      box-sizing: border-box; } }
+  .graphic-section__header {
+    color: #ffffff;
+    font-family: 'FuturaLT', arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 45px;
+    text-transform: uppercase;
+    max-width: 807px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px; }
+    .graphic-section__header:after {
+      content: "";
+      width: 51px;
+      height: 9px;
+      border-radius: 5px;
+      border: 1px solid #ffffff;
+      background-color: #ffffff;
+      position: absolute;
+      top: 190px;
+      left: 50%; }
+  .graphic-section__text {
+    color: #ffffff;
+    font-family: "Myriad Pro", arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px; }
+  @media (min-width: 1370px) {
+    .graphic-section--people__text {
+      color: #616161;
+      width: 347px;
+      position: absolute;
+      top: 311px;
+      left: 819px;
+      z-index: 20; } }
+  .graphic-section--people__cloud {
+    display: none; }
+    @media (min-width: 1370px) {
+      .graphic-section--people__cloud {
+        display: block;
+        top: 278px;
+        position: absolute;
+        left: 779px;
+        z-index: 10; } }
+  .graphic-section--people__graphics-1 {
+    display: none; }
+    @media (min-width: 1370px) {
+      .graphic-section--people__graphics-1 {
+        display: block;
+        position: absolute;
+        top: 458px;
+        left: 143px; } }
+  .graphic-section--people__graphics-2 {
+    display: none; }
+    @media (min-width: 1370px) {
+      .graphic-section--people__graphics-2 {
+        display: block;
+        position: absolute;
+        top: 357px;
+        left: 592px; } }
+  .graphic-section--people__graphics-3 {
+    display: none; }
+    @media (min-width: 1370px) {
+      .graphic-section--people__graphics-3 {
+        display: block;
+        position: absolute;
+        top: 454px;
+        left: 1112px; } }
 
 /*# sourceMappingURL=maps/main.css.map */
