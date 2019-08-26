@@ -208,6 +208,9 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    @media (min-width: 1370px) {
+      margin-bottom: 0px
+    }
     &:after {
       content: "";
       width: 51px;
