@@ -1,10 +1,11 @@
+
 .header {
-  background-color: #f3f3f3;
+  background-color: $background-color-6;
   &__content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 1px solid #aaaaaa;
+    border-bottom: 1px solid $border-color-1;
     padding-left: 39px;
     padding-right: 39px;
     height: 90px;
@@ -35,9 +36,9 @@
     flex-direction: row;
   }
   &__item {
-    color: #818181;
+    color: $border-color-1-2;
     a {
-      color: #818181;
+      color: $border-color-1-2;
     }
     font-family: $second-font;
     font-size: 20px;

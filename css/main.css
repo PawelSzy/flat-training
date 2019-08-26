@@ -417,7 +417,7 @@ textarea {
         margin-right: auto; } }
   .section__header, .section__subheader {
     color: #616161;
-    font-family: 'FuturaLT', arial, sans-serif;
+    font-family: $third-font;
     font-size: 41px;
     font-weight: bold;
     line-height: 45px;
@@ -536,7 +536,7 @@ textarea {
       justify-content: space-between; } }
   .slogan-section__text {
     color: #616161;
-    font-family: 'FuturaLT', arial, sans-serif;
+    font-family: $third-font;
     font-size: 35px;
     font-weight: bold;
     line-height: 45px;
@@ -570,7 +570,7 @@ textarea {
       box-sizing: border-box; } }
   .graphic-section__header {
     color: #ffffff;
-    font-family: 'FuturaLT', arial, sans-serif;
+    font-family: $third-font;
     font-size: 40px;
     font-weight: bold;
     line-height: 45px;

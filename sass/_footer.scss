@@ -1,7 +1,7 @@
 .footer {
-  background-color: #cdcdcd;
+  background-color: $background-color-8;
   padding: 63px 0;
-  color: #616161;
+  color: $color-3;
   &__content {
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@
     flex-direction: row;
     margin-bottom: 31px;
     &__date {
-      border: 1px solid #000000;
+      border: 1px solid $border-color-3;
       border-radius: 73px;
       width: 52px;
       height: 52px;
@@ -143,8 +143,8 @@
 }
 
 .footer__contact-icon {
-  color: #d0cdcd;
-  background-color: #616161;
+  color: $color-1;
+  background-color: $background-color-5;
   width: 34px;
   height: 34px;
   font-size: 16px;
